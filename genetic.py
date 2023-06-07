@@ -22,7 +22,7 @@ def get_best_solution(population_fit):
         if population_fit[i] < aux:
             aux = population_fit[i]
             count = i
-    return i
+    return count
 
 
 def draw_pop(pop):
